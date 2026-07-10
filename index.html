@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>David Oluwagbenga — Software Developer</title>
+<meta name="description" content="Bibiresanmi David — full-stack developer in Lagos building payment, ticketing, and voting platforms with Firebase, Vercel, and Node.js.">
+<meta property="og:title" content="David Oluwagbenga — Software Developer">
+<meta property="og:description" content="Full-stack developer in Lagos. Firebase, Vercel, and payment infrastructure for platforms that can't afford to go down mid-transaction.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+
+<div class="mesh"></div>
+<div id="glow"></div>
+
+<header>
+  <nav>
+    <a class="logo" href="index.html">David<span>.dev</span></a>
+    <ul>
+      <li><a href="index.html" data-page="home">Home</a></li>
+      <li><a href="work.html" data-page="work">Work</a></li>
+      <li><a href="about.html" data-page="about">About</a></li>
+      <li><a href="contact.html" data-page="contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html" data-page="home">Home</a>
+  <a href="work.html" data-page="work">Work</a>
+  <a href="about.html" data-page="about">About</a>
+  <a href="contact.html" data-page="contact">Contact</a>
+</div>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="eyebrow"><span class="dot"></span> available for freelance projects</div>
+    <h1>I build web platforms that <em>handle real money,<br> real users, and real deadlines.</em></h1>
+    <p class="lede">Bibiresanmi David — full-stack developer in Lagos. Firebase, Vercel, and payment infrastructure for platforms that can't afford to go down mid-transaction.</p>
+
+    <div class="terminal">
+      <div class="term-bar"><span></span><span></span><span></span><span class="term-title">deploy.sh</span></div>
+      <div class="term-body" id="termBody"></div>
+    </div>
+
+    <div class="cta-row">
+      <a class="btn btn-primary" href="work.html">See the work →</a>
+      <a class="btn btn-ghost" href="contact.html">Get in touch</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="tag">./featured</span>
+      <h2>Latest ship</h2>
+    </div>
+    <div class="projects">
+      <div class="project-card reveal">
+        <div class="p-head">
+          <h3>E-Voting Platform — NACOS-LASU Awards</h3>
+          <div class="stat-chips"><span class="chip plus">+ live</span><span class="chip minus">- downtime: 0</span></div>
+        </div>
+        <p>A full election-night voting system with vote-cart checkout, Squad payment integration, admin dashboard, and deep-linked award categories. Rebuilt on a raw Node.js backend and Firestore, with a dev/master Git workflow so nothing broke on show night.</p>
+        <div class="tech-row"><span>Vanilla JS</span><span>Node.js</span><span>Firestore</span><span>Squad</span><span>Vercel</span></div>
+        <div class="project-links">
+          <a class="primary" href="https://nacoslasuawards.app" target="_blank" rel="noopener">Live site ↗</a>
+          <a href="#" data-placeholder="code-nacos">View code ↗</a>
+        </div>
+      </div>
+    </div>
+    <div class="cta-row" style="margin-top:22px; opacity:1; animation:none;">
+      <a class="btn btn-ghost" href="work.html">More projects →</a>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="wrap reveal">
+    <h2>Got something that needs building?</h2>
+    <p>Currently taking on freelance projects — payments, dashboards, or anything that needs to work under pressure.</p>
+    <div class="foot-links">
+      <button class="copy-email" id="copyEmail" data-email="davidbibiresanmi@gmail.com">davidbibiresanmi@gmail.com</button>
+      <a href="https://github.com/BIBIREDAVID" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/david-bibiresanmi-b7a6a4249" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <div class="uptime"><span class="livedot"></span><span id="uptimeText">session uptime 00:00:00</span></div>
+    <p class="kbd-hint">tip: press <kbd>g</kbd> then <kbd>h</kbd>/<kbd>w</kbd>/<kbd>a</kbd>/<kbd>c</kbd> to jump between pages</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
