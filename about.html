@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — David Oluwagbenga</title>
+<meta name="description" content="Bibiresanmi David's stack and recent work: React, Node.js, Firebase, and payment infrastructure, alongside a timeline of recent commits.">
+<meta property="og:title" content="About — David Oluwagbenga">
+<meta property="og:description" content="The stack I ship with, and a timeline of recent commits.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="about">
+
+<div class="mesh"></div>
+<div id="glow"></div>
+
+<header>
+  <nav>
+    <a class="logo" href="index.html">BibiresanmiDavid<span>.dev</span></a>
+    <ul>
+      <li><a href="index.html" data-page="home">Home</a></li>
+      <li><a href="work.html" data-page="work">Work</a></li>
+      <li><a href="about.html" data-page="about">About</a></li>
+      <li><a href="contact.html" data-page="contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html" data-page="home">Home</a>
+  <a href="work.html" data-page="work">Work</a>
+  <a href="about.html" data-page="about">About</a>
+  <a href="contact.html" data-page="contact">Contact</a>
+</div>
+
+<div class="page-head wrap">
+  <div class="eyebrow"><span class="dot"></span> ./about</div>
+  <h1>What I ship with, and how I got here.</h1>
+  <p class="lede">Full-stack developer based in Lagos, currently studying Computer Science at Lagos State University while running a freelance practice on the side.</p>
+</div>
+
+<section class="tight">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="tag">./stack</span>
+      <h2>What I actually ship with</h2>
+    </div>
+    <div class="stack-grid reveal-stagger reveal">
+      <div class="stack-item stagger-child"><span class="cat">Frontend</span><span class="val">React, Vite, Tailwind, Vanilla JS</span></div>
+      <div class="stack-item stagger-child"><span class="cat">Backend</span><span class="val">Node.js, Firebase Functions</span></div>
+      <div class="stack-item stagger-child"><span class="cat">Data</span><span class="val">Firestore, Firebase Admin</span></div>
+      <div class="stack-item stagger-child"><span class="cat">Payments</span><span class="val">Squad, Paystack, Webhooks</span></div>
+      <div class="stack-item stagger-child"><span class="cat">Deploy</span><span class="val">Vercel, Git branching workflows</span></div>
+      <div class="stack-item stagger-child"><span class="cat">Extras</span><span class="val">QR/HMAC ticketing, Resend email</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="tag">./log</span>
+      <h2>Recent commits</h2>
+    </div>
+    <div class="timeline">
+      <div class="t-item reveal">
+        <span class="t-date">2026</span>
+        <h3>Freelance Full-Stack Developer</h3>
+        <p>Architecting a multi-tenant SaaS e-voting platform — Firestore subcollections, dual payment gateway failover, and USSD checkout for Nigerian voters.</p>
+      </div>
+      <div class="t-item reveal">
+        <span class="t-date">2025 — present</span>
+        <h3>Student Ambassador — Microsoft & Cowrywise</h3>
+        <p>Representing both programs on campus at Lagos State University while running a freelance dev practice on the side.</p>
+      </div>
+      <div class="t-item reveal">
+        <span class="t-date">2025</span>
+        <h3>NACOS LASU — Active Member</h3>
+        <p>Built and maintain the association's award voting platform, used live during NACOS-LASU award events.</p>
+      </div>
+      <div class="t-item reveal">
+        <span class="t-date">Ongoing</span>
+        <h3>B.Sc Computer Science — Lagos State University</h3>
+        <p>Coursework alongside a growing freelance client list spanning voting platforms, ticketing systems, and inventory tools.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="wrap reveal">
+    <h2>Got something that needs building?</h2>
+    <p>Currently taking on freelance projects — payments, dashboards, or anything that needs to work under pressure.</p>
+    <div class="foot-links">
+      <button class="copy-email" id="copyEmail" data-email="davidbibiresanmi@gmail.com">davidbibiresanmi@gmail.com</button>
+      <a href="https://github.com/BIBIREDAVID" data-placeholder="github">GitHub</a>
+      <a href="https://www.linkedin.com/in/david-bibiresanmi-b7a6a4249" data-placeholder="linkedin">LinkedIn</a>
+    </div>
+    <div class="uptime"><span class="livedot"></span><span id="uptimeText">session uptime 00:00:00</span></div>
+    <p class="kbd-hint">tip: press <kbd>g</kbd> then <kbd>h</kbd>/<kbd>w</kbd>/<kbd>a</kbd>/<kbd>c</kbd> to jump between pages</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
